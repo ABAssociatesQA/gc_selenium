@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching the chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to url:https://www.lambdatest.com/selenium-playground/]]>
+    </line>
+    <line>
+      <![CDATA[Click on windowPopupModel_link]]>
+    </line>
+    <line>
+      <![CDATA[Click on likeUsOnFacebook_link]]>
+    </line>
+    <line>
+      <![CDATA[Switch to window]]>
+    </line>
+    <line>
+      <![CDATA[Provide value to email_editbox as abc@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Switch to window]]>
+    </line>
+    <line>
+      <![CDATA[Click on followOnTwitter_link]]>
+    </line>
+    <line>
+      <![CDATA[Launching the chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to url:https://www.lambdatest.com/selenium-playground/]]>
+    </line>
+    <line>
+      <![CDATA[Click on Simple form demo link]]>
+    </line>
+    <line>
+      <![CDATA[Provide value to enterMessage_editbox as Message]]>
+    </line>
+    <line>
+      <![CDATA[Click on getCheckedValue_button]]>
+    </line>
+    <line>
+      <![CDATA[The available text is as expected--->PASS]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-12T21:30:38 IST" name="Suite" finished-at="2023-10-12T21:31:08 IST" duration-ms="29361">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T21:30:38 IST" name="Test" finished-at="2023-10-12T21:31:08 IST" duration-ms="29361">
+      <class name="testscripts.WindowPopupModelTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testscripts.WindowPopupModelTest@3fc2959f]" started-at="2023-10-12T21:30:38 IST" name="beforeSuite" finished-at="2023-10-12T21:30:38 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.WindowPopupModelTest@3fc2959f]" started-at="2023-10-12T21:30:38 IST" name="beforeMethod" finished-at="2023-10-12T21:30:42 IST" duration-ms="3233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.WindowPopupModelTest.handleWindowTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching the chrome browser]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to url:https://www.lambdatest.com/selenium-playground/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="handleWindowTest()[pri:0, instance:testscripts.WindowPopupModelTest@3fc2959f]" started-at="2023-10-12T21:30:42 IST" name="handleWindowTest" finished-at="2023-10-12T21:30:55 IST" duration-ms="13780" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on windowPopupModel_link]]>
+            </line>
+            <line>
+              <![CDATA[Click on likeUsOnFacebook_link]]>
+            </line>
+            <line>
+              <![CDATA[Switch to window]]>
+            </line>
+            <line>
+              <![CDATA[Provide value to email_editbox as abc@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Switch to window]]>
+            </line>
+            <line>
+              <![CDATA[Click on followOnTwitter_link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleWindowTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testscripts.WindowPopupModelTest@3fc2959f]" started-at="2023-10-12T21:30:55 IST" name="afterMethod" finished-at="2023-10-12T21:30:56 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testscripts.WindowPopupModelTest@3fc2959f]" started-at="2023-10-12T21:31:08 IST" name="afterSuite" finished-at="2023-10-12T21:31:08 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testscripts.WindowPopupModelTest -->
+      <class name="testscripts.SimpleFormDemoTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testscripts.SimpleFormDemoTest@31190526]" started-at="2023-10-12T21:30:56 IST" name="beforeMethod" finished-at="2023-10-12T21:30:58 IST" duration-ms="1762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.SimpleFormDemoTest.sampleFormDemoTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching the chrome browser]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to url:https://www.lambdatest.com/selenium-playground/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="sampleFormDemoTest()[pri:0, instance:testscripts.SimpleFormDemoTest@31190526]" started-at="2023-10-12T21:30:58 IST" name="sampleFormDemoTest" finished-at="2023-10-12T21:31:08 IST" duration-ms="10035" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Simple form demo link]]>
+            </line>
+            <line>
+              <![CDATA[Provide value to enterMessage_editbox as Message]]>
+            </line>
+            <line>
+              <![CDATA[Click on getCheckedValue_button]]>
+            </line>
+            <line>
+              <![CDATA[The available text is as expected--->PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sampleFormDemoTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testscripts.SimpleFormDemoTest@31190526]" started-at="2023-10-12T21:31:08 IST" name="afterMethod" finished-at="2023-10-12T21:31:08 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testscripts.SimpleFormDemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
